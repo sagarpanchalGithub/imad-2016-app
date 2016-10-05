@@ -17,7 +17,7 @@ app.get('/page-two', function(req,res){
     res.sendFile("Here the server served the page two of app");
 });
 
-app.get('/page-three', function(req,res){
+app.get('/page-three', function (req, res){
     res.sendFile("Here the server served the page three of app");
 });
 app.get('/ui/style.css', function (req, res) {
