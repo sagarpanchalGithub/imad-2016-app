@@ -9,7 +9,17 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('page-one', function(req,res){
+    res.sendFile("Here the server served the page one of app");
+});
 
+app.get('page-two', function(req,res){
+    res.sendFile("Here the server served the page two of app");
+});
+
+app.get('page-three', function(req,res){
+    res.sendFile("Here the server served the page three of app");
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
