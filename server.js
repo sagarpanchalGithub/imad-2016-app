@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 app.get('/article-one', function(req, res){
     res.send('File is served here');
 });
-app.get('/ui/Registraion-Page', function(req, res){
+app.get('/Registraion-Page', function(req, res){
     res.send(path.join("Im here"));
 });
 
