@@ -12,8 +12,8 @@ app.get('/', function (req, res) {
 app.get('/article-one', function(req, res){
     res.send('File is served here');
 });
-app.get('/ui/id/pp', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'pong.png'));
+app.get('/ui/Registraion-Page', function(req, res){
+    res.sendFile(path.join(_dirname, 'ui', 'Registration-Page'));
 });
 
 app.get('/ui/style.css', function (req, res) {
