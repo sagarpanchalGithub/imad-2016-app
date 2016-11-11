@@ -13,7 +13,7 @@ app.get('/article-one', function(req, res){
     res.send('File is served here');
 });
 app.get('/ui/Registraion-Page', function(req, res){
-    res.sendFile(path.join(_dirname, 'ui', 'Registration-Page'));
+    res.send(path.join("Im here"));
 });
 
 app.get('/ui/style.css', function (req, res) {
