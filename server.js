@@ -12,8 +12,8 @@ app.get('/', function (req, res) {
 app.get('/article-one', function(req, res){
     res.send('File is served here');
 });
-app.get('/ui/Registration-Page', function(req, res){
-    res.sendFile(path.join(__dirname, 'ui', 'Registration-Page.html'));
+app.get('/registration', function(req, res){
+    res.sendFile(path.join(__dirname, 'ui', 'registration.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
