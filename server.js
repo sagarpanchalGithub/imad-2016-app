@@ -14,8 +14,8 @@ app.get('/article-one', function(req, res){
 });
 
 
-app.get('/Registration_Page', function(req, res){
-    res.sendFile(path.join(__dirname, 'ui', 'Registration_Page.html'));
+app.get('/second-art', function(req, res){
+    res.sendFile(path.join(__dirname, 'ui', 'second-art.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
